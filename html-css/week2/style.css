@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 15px;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+}
+header .logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+header .logo img{
+    width: 200px;
+    height: 120px;
+}
+header nav{
+    float: right;
+    width: 700px;
+    height: 100px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: #0000FF;
+    text-decoration: underline;
+
+}
+
+.slider{
+    width: 960px;
+    height: 360px;
+    border: 2px soli #C0C0C0;
+}
+.slider img{
+    width: 960px;
+    height: 360px;
+}
+
+.contant{
+    padding: 0 20px;
+    margin: 30px;
+    overflow: hidden;
+}
+
+.left{
+    width: 630px;
+    float: right;
+}
+.cop h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.cop p{
+    color: #999999;
+    font-size: 16px;
+    letter-spacing: .25px;
+    text-transform: justify;
+}
+
+.right{
+    width: 241px;
+    float: left;
+
+}
+
+.right h1{
+    font-weight: bold;
+    font-size: 22px;
+}
+.right p{
+    color: #999999;
+    font-size: 16px;
+    letter-spacing: .25px;
+    text-transform: justify;
+}
+.left img{
+    width: 100%;
+    height: auto;
+    border: 2px solid blue;
+}
+.gallery h1{
+    font-weight: bold;
+    font-size: 16px;
+}
+.gallery img{
+    width: 100%;
+    height: 120px;
+}
+
+.footer{ 
+    clear: both;
+    width: 945px;
+    height: 280px; 
+    background-color:#8559E7; 
+    padding: 10px;
+    border-top: 1px solid black;
+    margin-top: 30px;
+}
+
+.find{
+    width: 241px;
+    float: left;
+    margin-top: 30px;
+}
+.find h1{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.find p{
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.navigation ul{
+    list-style: none;
+    padding: 0;
+    width: 50px;
+    float: right;
+    margin-right: 100px;
+
+}
+.navigation ul li a{
+    display: block;
+    color: white;
+}
+.dis{
+    width: 100%;
+    padding: 0;
+    
+}
+.dis p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 50px;
+    padding: 0;
+}
+.dis p a{
+    color: white;
+
+}
+
+@media only screen and (max-width: 959px) {
+    .container{
+        width: 100%;
+    }
+    .left{
+        width: 70%;
+    }
+    .right{
+        width: 70%;
+    }
+    .footer{
+        width: 70%;
+    }
+    header nav{
+        width: 100%;
+        
+    }
+
